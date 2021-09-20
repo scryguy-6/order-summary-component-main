@@ -1,0 +1,126 @@
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  /*width: 1440px;*/
+  font-size: 1em;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+p {
+    font-size: 1em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-content {
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 10% auto;
+  padding-bottom: 10px;
+  width: 450px;
+}
+
+.hero {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 450px;
+  height: 220px;
+  object-fit: contain;
+}
+
+.message {
+  width: 70%;
+  text-align: center;
+  color: #939db9;
+  margin: auto;
+}
+
+.choose-plan {
+  background-color: #f8f9fe;
+  width: 70%;
+  height: 100px;
+  border-radius: 10px;
+  margin: 20px auto;
+  position: relative;
+  padding-top: 10px;
+}
+
+.music-icon {
+  float: left;
+  padding: 15px;
+}
+
+.plan-name {
+  font-weight: bold;
+}
+
+.plan-cost {
+  color: #939db9;
+  display: inline;
+}
+
+.change-link {
+  font-weight: bold;
+  position: absolute;
+  right: 25px;
+}
+
+.BUTTON_1 {
+   background: #3829e0;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Red Hat Display', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   display: block;
+   cursor: pointer;
+   text-align: center;
+   width: 60%;
+   margin: 20px auto;
+}
+
+.BUTTON_1:hover {
+   background: #766cf1;
+   color: #ffffff;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.BUTTON_2 {
+   /*background: #ffffff;*/
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: hsl(224, 23%, 55%);
+   font-family: 'Red Hat Display', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   display: block;
+   cursor: pointer;
+   text-align: center;
+   width: 50%;
+   margin: 20px auto 20px auto;
+}
+
+.BUTTON_2:hover {
+   /*background: #30E3CB;*/
+   color: #1f2f56;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
